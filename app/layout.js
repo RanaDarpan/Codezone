@@ -1,16 +1,13 @@
-// app/layout.tsx
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
 export const metadata = {
   title: "CourseZone",
-  description:
-    "We offer all the courses like DSA, Python, Java, Machine Learning",
-  icons: {
-    icon: "/icon.png"}
-};
+  description: "We offer all the courses like DSA, Python, Java, Machine Learning",
+   icons: {
+    icon: { url: "icon.png", type: "image/png" }, 
+  },
 
+};
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
